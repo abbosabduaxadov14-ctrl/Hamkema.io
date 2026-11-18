@@ -1,0 +1,29 @@
+# Local tools, packages and generated artifacts are not website source.
+**/node_modules/
+**/.agents/
+**/.ollama/
+**/.playwright-cli/
+**/tools/runtime/
+**/tools/codex-cli/
+**/tools/pixel-office/
+**/tools/rtk/
+**/baseline/
+**/*.exe
+**/*backup*/
+**/artifacts/
+**/output/
+**/blobs/
+**/release/
+**/*.zip
+**/*.log
+**/*.lock
+**/*.db*
+**/.env
+**/.env.*
+**/.local-review/
+!**/.env.example
+# Keep evidence documents; omit captured videos, page snapshots and image outputs.
+**/research/**/*.png
+**/research/**/*.jpg
+**/research/**/*.html
+**/research/**/release-fixture/
